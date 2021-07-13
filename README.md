@@ -2,10 +2,6 @@
 
 ## 🚩 Table of Contents
 
-| translation                            |
-| -------------------------------------- |
-| [`🎌 日本語`](./contents/jp/README.md) |
-| [`🇰🇷 한국어`](./contents/kr/README.md) |
 
 - [🗼Screen](#screen)
 - [📦How to run](#how-to-run)
@@ -15,29 +11,34 @@
 
 ### 🗼Screen
 
-![FRONT]()
+![FRONT](react_tutorial-tic-tac-toe/src/tictoe.gif)
 
 
 #### 📦How to run
 
 Development Environment Version  
-node v16.4.1 
-Visual Studio code -v 1.57  
-git --version 2.32.0
+node v 16.4.1 
+npm  v 7.18.1
+git  v 2.32.0
+vsc  v 1.57  
 
+[node](https://nodejs.org/en/) install
 ```sh
-dd
+    npx create-react-app react_tutorial-tic-tac-toe
+
 ```
 
+```sh
+    npm run start
+```
 ### 🔧Main techniques used
 
 | Name                                                                                                                    | Description                                |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [``]()               | Type Error Prevention And For readability  |
-| [``]()                           | Router utilizing hash in URL               |
-| [``]()            | For "component" and "Life Cycle.:recycle:" |
-| [``]()                          | To use the received value.                 |
-| [``]() | Use for responsive web                     |
+| [`component`]()               | Reactで親子コンポーネントのデータの受け渡す方法  |
+| [``]()                           |              |
+| [``]()            | |
+| [``]()                          |                 |
 
 
 ## 🔎Reference web link
@@ -58,4 +59,4 @@ dd
 
 ## ❗Realization
 
-
+    中。。
