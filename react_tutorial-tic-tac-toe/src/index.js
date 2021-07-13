@@ -10,6 +10,7 @@ class Square extends React.Component {
         className="square" 
         onClick={() => this.props.onClick()}
         >
+        {/* 1. 클릭 이벤트 리스너 설정해 */}
         {this.props.value}
         </button>
       );
@@ -22,6 +23,12 @@ class Square extends React.Component {
         this.state = {
             squares: Array(9).fill(null),
         };
+    }
+
+    handleClick(i) {
+      const squares = this.state.squares.slice();
+      squares[i] = 'X';
+      this.setState({squares: squares});
     }
 
     renderSquare(i) {
